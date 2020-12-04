@@ -1,3 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
+
+  .card-text{
+    height: 5vh;
+  }
