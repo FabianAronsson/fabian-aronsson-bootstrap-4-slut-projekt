@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bamazon</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="bamazon.png" width="80vh"></a>
+        <a class="navbar-brand" href="index.html">Hem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Produkter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="hoover.html">Hoovers</a>
+                        <a class="dropdown-item" href="#">Dyson</a>
+                        <a class="dropdown-item" href="#">Fläktar</a>
+                        <a class="dropdown-item" href="#">Mikrovågsugnar</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tjänster
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tjänster.html">Rengöring</a>
+                        <a class="dropdown-item" href="tjänster.html">Tvätt</a>
+                        <a class="dropdown-item" href="tjänster.html">Lagring</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="alert alert-primary" role="alert">
+        Nu säljs Dyson dammsugare för 50% av orginalpriset!
+    </div>
+
+    <div class="container">
+        <div class="media">
+            <img src="./Images/hoover.jpg" class="mr-3 mb-3" width="40%">
+            <div class="media-body">
+                <h3 class="mt-0">Lectrobux SilentPerformer dammsugare ESP7W360 (vit)</h3>
+                <b>Miljövänliga material</b><br>
+                SilentPerformer är tillverkad i 60 % återvunnen plast.
+                <br><br>
+                <b>SilencePro-systemb</b><br>
+                Med en kombination av tyst motor, innovativ konstruktion på dammpåsebehållaren och ett specialdesignat,
+                tyst munstycke blir ljudnivån härligt behaglig för alla när du dammsuger.
+                <br><br>
+                <b>360 grader Motion-teknologi</b><br>
+                Se fram emot enkel manövrering även vid trånga utrymmen som badrum och korridorer tack vare små hjul som
+                roterar 360 grader.
+                <br><br>
+                <b>Teleskoprör</b><br>
+                Justera längden på röret till precis det läge som passar din längd och området du ska dammsuga.
+                <br><br>
+                <b>MultiRoom-system</b><br>
+                Dammsug stora ytor eller flera små rum utan att behöva byta eluttag. Den långa sladden ger en
+                arbetsradie på hela 12 meter.
+                <br><br>
+                <b>Enkelt påsbyte</b><br>
+                Ett speciellt lock med praktisk öppning gör det extra enkelt att byta dammpåse och filter.
+                <br><br>
+            </div>
+        </div>
+              <a tabindex="0" class="btn btn-lg btn-success float-right mb-3" role="button" data-toggle="popover" 
+              data-trigger="focus" data-content="Tillagd i kundvagnen!">Lägg till i kundvagnen?</a>
+        <table class="table">
+            <thead class="thead-dark">
+                <th colspan="2">Modellbeskrivning</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th style="width: 30%;">Produktyp</th>
+                    <td>Dammsugare</td>
+                </tr>
+                <tr>
+                    <th>Serie</th>
+                    <td>SilentPerformer</td>
+                </tr>
+                <tr>
+                    <th>Produkt-ID (artikelnummer)</th>
+                    <td>ESP7W360</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <thead class="thead-dark">
+                    <th colspan="2">Funktioner och egenskaper</th>
+                </thead>
+                <tr>
+                    <th>Filtreringsystem</th>
+                    <td>Påse</td>
+                </tr>
+                <tr>
+                    <th>Total räckvidd(m)</th>
+                    <td>12,00</td>
+                </tr>
+                <tr>
+                    <th>Wi-Fi</th>
+                    <td>Nej</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Hem</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Produkter</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Hoover</li>
+        </ol>
+    </nav>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img src="bamazon.png" width="80vh">
+                <small class="d-block mb-3 text-muted">© 2020</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Integritet</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Resurser</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Policy</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">GDPR</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">PUL</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Betalinformation</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Regler</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">EULA</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Övrigt</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Om oss</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="kontakt.html">Kontakt</a></li>
+                    <li><a class="text-muted" href="kontakt.html">Personal</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="bootstrap.js"></script>
+
+
+
+<script>
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+    })
+
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
+
 </html>
