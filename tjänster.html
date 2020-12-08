@@ -25,10 +25,10 @@
                         Produkter
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#hoover">Hoovers</a>
-                        <a class="dropdown-item" href="#dyson">Dyson</a>
-                        <a class="dropdown-item" href="#flakt">Fläktar</a>
-                        <a class="dropdown-item" href="#mikro">Mikrovågsugnar</a>
+                        <a class="dropdown-item" href="hoover.html">Hoovers</a>
+                        <a class="dropdown-item" href="#">Dyson</a>
+                        <a class="dropdown-item" href="#">Fläktar</a>
+                        <a class="dropdown-item" href="#">Mikrovågsugnar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -84,7 +84,10 @@
                                         Om tiden räcker så kan vi ta fram soffor och dammsuga under och bakom. Vi torkar
                                         lister, karmar, dörrar och i sopskåpet emellanåt.
                                         <br><br>
-                                        Vill du ha städat på något annat sätt så gör vi det.</p>
+                                        Vill du ha städat på något annat sätt så gör vi det.
+                                    </p>
+                                    <button type="button" class="btn btn-lg btn-info" data-toggle="popover"
+                                        data-content="Det gör vi!">Finns vi på din ort? Klicka!</button>
                                 </div>
                             </div>
                         </div>
@@ -122,6 +125,8 @@
                                     Textilierna blir mjuka och får en behaglig doft.
 
                                     </p>
+                                    <button type="button" class="btn btn-lg btn-info" data-toggle="popover"
+                                        data-content="Tyvärr inte.">Finns vi på din ort? Klicka!</button>
                                 </div>
                             </div>
                         </div>
@@ -162,6 +167,13 @@
                                             dina saker.</li>
                                     </ul>
                                     </p>
+
+                                    <h3><br>Tyvärr är inte våra lagringsutrymmen helt klara just nu</h3>
+                                    <p>Kom tillbaka när vi är redo att ta emot dig.</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -204,6 +216,8 @@
         </div>
     </footer>
 </body>
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -213,4 +227,9 @@
 <script src="bootstrap.js"></script>
 <script src="bootstrap.bundle.js"></script>
 
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
 </html>
