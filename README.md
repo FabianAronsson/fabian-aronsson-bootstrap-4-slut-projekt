@@ -5,26 +5,26 @@ Projekt inom webbutveckling.
 Antal unika element per sida:
 
 index{
-      navbar
-      jumbotron
-      card
+      navbar,
+      jumbotron,
+      card,
       footer
 }
 
 hoover{
-      alert
-      table
+      alert,
+      table,
       breadcrumb
 }
 
 tjänster{
-      collapse(accordion)
-      popover
+      collapse(accordion),
+      popover,
       progress
 }
 
 kontakt{
-      carousel
-      form???
+      carousel,
+      form???,
       modal
 }
