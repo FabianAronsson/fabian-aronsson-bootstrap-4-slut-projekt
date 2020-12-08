@@ -86,8 +86,8 @@
                                         <br><br>
                                         Vill du ha städat på något annat sätt så gör vi det.
                                     </p>
-                                    <button type="button" class="btn btn-lg btn-info" data-toggle="popover"
-                                        data-content="Det gör vi!">Finns vi på din ort? Klicka!</button>
+                                    <a tabindex="0" class="btn btn-lg btn-info" role="button" data-toggle="popover" 
+                                        data-trigger="focus" data-content="Det gör vi!" style="color: white;">Finns vi på din ort? Klicka!</a>
                                 </div>
                             </div>
                         </div>
@@ -125,8 +125,8 @@
                                     Textilierna blir mjuka och får en behaglig doft.
 
                                     </p>
-                                    <button type="button" class="btn btn-lg btn-info" data-toggle="popover"
-                                        data-content="Tyvärr inte.">Finns vi på din ort? Klicka!</button>
+                                        <a tabindex="0" class="btn btn-lg btn-info" role="button" data-toggle="popover" 
+                                        data-trigger="focus" data-content="Tyvärr inte." style="color: white;">Finns vi på din ort? Klicka!</a>
                                 </div>
                             </div>
                         </div>
@@ -230,5 +230,10 @@
     $(function () {
         $('[data-toggle="popover"]').popover()
     })
+
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+    })
 </script>
+
 </html>
