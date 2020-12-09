@@ -1,31 +1,24 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*for smooth scrolling when clicking a link*/
   }
 
-  .card-text{
+  .card-text{ /*text was too small on cards*/
     height: 5vh;
   }
 
-  .carousel-item {
+  .carousel-item { /*in order to position items on top of each other position:relative is neccessary*/
     position: relative;
     text-align: center;
   }
 
-  .toastAlignedRight {
+  .toastAlignedRight {  /* to use when positioning toasts on top of images*/
     position: absolute;
     top: 20%;
     left: 80%;
     transform: translate(-80%, -50%);
   }
 
-  .toastAlignedLeft{
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    transform: translate(-80%, -50%);
-  }
-
-.accordion a{
+.accordion a{ /*for changing the text color of the accordion component*/
   color: black;
 }
 
