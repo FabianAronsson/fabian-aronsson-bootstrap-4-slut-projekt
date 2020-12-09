@@ -25,6 +25,6 @@ tjänster{
 
 kontakt{
       carousel,
-      form???,
+      toast,
       modal
 }
